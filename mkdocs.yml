@@ -8,6 +8,7 @@ theme:
     - navigation.tabs
 #    - navigation.sections
     - content.action.edit
+    - navigation.path
   icon:
     edit: material/pencil
     view: material/eye
