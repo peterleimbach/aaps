@@ -8,12 +8,9 @@
 - Any git version should work. For example [https://git-scm.com/download/win](https://git-scm.com/download/win).
 - Make sure to note down the installation path. You will need it in the next step.
 
-```{admonition} make git.exe available via Windows PATH
-:class: note
+!!! warning "make git.exe available via Windows PATH"
 
-Make sure that you can call git.exe without the prefing path as Android Studio needs this to find git.exe. It will then automatically sets the path to git.exe correct in the Android Studio settings.
-
-```
+  Make sure that you can call git.exe without the prefing path as Android Studio needs this to find git.exe. It will then automatically sets the path to git.exe correct in the Android Studio settings.
 
 ![Git installation path](../images/Update_GitPath.png)
 
