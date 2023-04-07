@@ -1,0 +1,101 @@
+site_name: AndroidAPSDocs
+site_dir: site
+theme: 
+  name: material
+  logo: assets/logo.png
+#  name: readthedocs 
+  features:
+    - navigation.tabs
+#    - navigation.sections
+    - content.action.edit
+  icon:
+    edit: material/pencil
+    view: material/eye
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+  - tables
+extra_css:
+    - css/extra.css
+repo_url: https://github.com/openaps/AndroidAPSdocs
+edit_uri: edit/master/docs/EN/
+#theme: readthedocs
+# extra_css:
+#  - stylesheets/extra.css
+nav:
+#    - Home: 'index.md'
+    - 'Introduction':
+        - 'Introduction' : 'index.md'
+        - 'Safety First': 'Getting-Started/Safety-first.md'
+        - 'What is a closed loop system': 'Getting-Started/ClosedLoop.md'
+        - 'What is a closed loop system with AAPS': 'Getting-Started/WhatisAndroidAPS.md'
+        - 'Docs updates & changes': 'Getting-Started/WikiUpdate.md'
+    - 'Requirments':
+        - 'CGM/FGM choices': 'Configuration/BG-Source.md'
+        - 'Pump choices': 'Getting-Started/Pump-Choices.md'
+        - 'Module': 'Module/module.md'
+    - 'Build':
+        - 'Building the APK': 'Installing-AndroidAPS/Building-APK.md'
+        - 'Update to a new version or branch': 'Installing-AndroidAPS/Update-to-new-version.md'
+        - 'Troubleshooting': 'Installing-AndroidAPS/Update-to-new-version.md'
+        - 'Hints and Checks after update to AAPS 3.0': 'Installing-AndroidAPS/update3_0.md'
+        - 'Checks after update to AAPS 2.7': 'Installing-AndroidAPS/update2_7.md'
+        - 'Install git': 'Installing-AndroidAPS/git-install.md'
+        - 'Troubleshooting Android Studio': 'Installing-AndroidAPS/troubleshooting_androidstudio.md'
+        - 'Release Notes': 'Installing-AndroidAPS/Releasenotes.md'
+        - 'Dev branch': 'Installing-AndroidAPS/Dev_branch.md'
+    - 'Setup':
+#        - 'CGM/FGM' : 'Configuration/BG-Source.md'
+        - 'xDrip Settings' : 'Configuration/xdrip.md'
+#        - 'Pump choices' : 'Getting-Started/Pump-Choices.md'
+        - 'Phones' : 'Hardware/Phoneconfig.md'
+        - 'Nightscout setup' :  'Installing-AndroidAPS/Nightscout.md'
+        - 'Smartwatch' :  'Hardware/Smartwatch.md'
+    - 'Configuration':
+        - 'Config builder' : 'Configuration/Config-Builder.md'
+        - 'Preferences' : 'Configuration/Preferences.md'
+    - 'Usage':
+        - 'AAPS screens' : 'Getting-Started/Screenshots.md'
+        - 'Objectives' : 'Usage/Objectives.md'
+        - 'OpenAPS features' : 'Usage/Open-APS-features.md'
+        - 'COB calculation' : 'Usage/COB-calculation.md'
+        - 'Sensitivity detection' : 'Configuration/Sensitivity-detection-and-COB.md'
+        - 'Profile switch' : 'Usage/Profiles.md'
+        - 'Temp-targets' : 'Usage/temptarget.md'
+        - 'Extended carbs' : 'Usage/Extended-Carbs.md'
+        - 'Automation' : 'Usage/Automation.md'
+        - 'Autotune (dev only)' : 'Usage/autotune.md'
+        - 'Careportal (discontinued)' : 'Usage/CPbefore26.md'
+        - 'Open Humans Uploader' : 'Configuration/OpenHumans.md'
+        - 'Automation with 3rd party apps' : 'Usage/automationwithapp.md'
+        - 'Android auto' : 'Usage/Android-auto.md'
+    - 'Hints':
+        - 'Crossing timezones with pumps' : 'Usage/Timezone-traveling.md'
+        - 'Accessing logfiles' : 'Usage/Accessing-logfiles.md'
+        - 'Accu-Chek Combo tips for basic usage' : 'Usage/Accu-Chek-Combo-Tips-for-Basic-usage.md'
+        - 'Export/Import Settings' : 'Usage/ExportImportSettings.md'
+        - 'xDrip engineering mode' : 'Usage/Enabling-Engineering-Mode-in-xDrip.md'
+    - 'Children':
+        - 'Remote monitoring' : 'Children/Children.md'
+        - 'SMS commands' : 'Children/SMS-Commands.md'
+        - 'Profile helper' : 'Configuration/profilehelper.md'
+    - 'Clinicians':
+        - 'For Clinicians' : 'Resources/clinician-guide-to-AndroidAPS.md'
+    - 'FAQ':
+        - 'FAQ' : 'Getting-Started/FAQ.md'
+        - 'Troubleshooting' : 'Usage/troubleshooting.md'
+        - 'Nightscout client' : 'Usage/Troubleshooting-NSClient.md'
+        - 'Glossary' : 'Getting-Started/Glossary.md'
+    - 'How to help':
+        - 'How to help' : 'Getting-Started/How-can-I-help.md'
+        - 'How to translate the app and docs' : 'translations.md'
+        - 'State of translations' : 'Administration/stateTranslations.md'
+        - 'How to edit the docs' : 'make-a-PR.md'
+    - Sandbox:
+        - 'Sandbox': 'Sandbox/sandbox1.md'
