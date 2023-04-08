@@ -1,9 +1,9 @@
 site_name: AndroidAPSDocs - Development - not official!
 site_dir: site
 theme: 
-#  name: material
+  name: material
   logo: assets/logo.png
-  name: readthedocs 
+#  name: readthedocs 
   features:
     - navigation.tabs
 #    - navigation.sections
