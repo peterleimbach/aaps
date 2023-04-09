@@ -7,6 +7,8 @@ theme:
   features:
     - navigation.tabs
 #    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
     - content.action.edit
   icon:
     edit: material/pencil
